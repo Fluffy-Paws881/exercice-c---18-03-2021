@@ -1,0 +1,29 @@
+1) questions de cours
+
+
+1.1)
+ Le constructeur est la fonction membre appelée automatiquement lors de la création d'un objet
+ (en statique ou en dynamique). Cette fonction membre est la première fonction membre à être exécutée,
+ il s'agit donc d'une fonction permettant l'initialisation des variables.
+
+
+1.2)
+le destructeur d'une classe est une méthode spéciale lancée lors de la destruction d'un objet 
+afin de récupérer les ressources (principalement la mémoire vive) réservée dynamiquement lors de 
+l'instanciation de l'objet. Le destructeur est appelé pour libérer les ressources acquises par un objet 
+lorsque l'espace occupé par celui-ci doit être libéré.
+
+
+1.3)
+on reconnait un constructeur du fait que la méthode possede le meme nom que la classe et du fait que
+la méthode ne doit rien renvoyer, pas même void.
+
+
+1.4)
+La surcharge de fonctions est une fonctionnalité de C++ dans laquelle deux fonctions ou plus 
+peuvent avoir le même nom mais des paramètres différents.
+
+
+1.5)
+public - les membres sont accessible depuis l'exterieur de la classe
+private - les membres ne sont pas accessible depuis l'exterieur de la classe
